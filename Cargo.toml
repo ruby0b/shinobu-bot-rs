@@ -1,0 +1,8 @@
+[package]
+name = "shinobu-bot-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+poise = "0.5.6"
+tokio = { version = "1.33.0", features = ["macros", "rt-multi-thread"] }
